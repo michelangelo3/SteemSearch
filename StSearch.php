@@ -90,8 +90,7 @@ class Form1 {
 // Bei direktem Aufruf außerhalb Wordpress
 if(!function_exists('get_permalink')) {
   function get_permalink() {
-    return 'https://steem.uber.space'.$_SERVER["SCRIPT_NAME"];
-    // return 'https://steem.uber.space/wp-content/themes/steem/MyPhp/Blurt2.php';
+    return 'StSearch.php';
   }
 }
 
