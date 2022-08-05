@@ -87,7 +87,7 @@ class Form1 {
   
 } // Class Form1
 
-// Bei direktem Aufruf außerhalb Wordpress
+// Für direkten Aufruf außerhalb Wordpress
 if(!function_exists('get_permalink')) {
   function get_permalink() {
     return 'StSearch.php';
